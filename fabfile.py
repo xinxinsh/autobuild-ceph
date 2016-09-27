@@ -566,7 +566,7 @@ def gitbuilder_ceph():
 def _gitbuilder_ceph(flavor):
     _gitbuilder(
         flavor=flavor,
-        git_repo='https://github.com/ceph/ceph.git',
+        git_repo='https://github.com/xinxinsh/ceph.git',
         extra_remotes=dict(
             ci='https://github.com/ceph/ceph-ci.git',
         ),

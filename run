@@ -6,6 +6,7 @@ exec >>logs/stdout.log 2>>logs/stderr.log
 
 FILE_OWNER="$(stat --format='%U' gitbuilder.git/out)"
 CUR_USER="$(id -un)"
+chown -R $FILE_OWNER:$FILE_OWNER logs
 if [ "$FILE_OWNER" = "root" ]; then
     echo "$0: root should never own the build tree, aborting." 1>&2
     exit 1

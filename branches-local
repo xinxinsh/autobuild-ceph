@@ -39,7 +39,7 @@ def separate_tags_and_branches(refs):
 
 PRIORITIZE = [
 #    'master',
-    'jewel',
+    'wip-chinac',
     ]
 
 IGNORE = [
