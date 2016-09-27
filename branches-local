@@ -38,7 +38,7 @@ def separate_tags_and_branches(refs):
     return tags, branches
 
 PRIORITIZE = [
-    'master',
+#    'master',
     'jewel',
     ]
 
@@ -496,7 +496,7 @@ def doit(output, verbose):
     else:
         fmt = '{1}'
 
-    for l in [priority, normal, filtered_tags]:
+    for l in [priority]:
         for (obj, ref) in l:
             print >>output, fmt.format(obj, ref)
 
