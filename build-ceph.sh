@@ -8,7 +8,7 @@ function print_runtime() {
 }
 
 bindir=`dirname $0`
-. $bindir/reset-modules.sh
+. $bindir/../reset-modules.sh
 
 echo --START-IGNORE-WARNINGS
 [ ! -x install-deps.sh ] || ./install-deps.sh
