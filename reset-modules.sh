@@ -9,6 +9,8 @@ rm -rf src/libs3
 rm -rf src/mongoose
 rm -rf src/civetweb
 rm -rf src/rocksdb
+rm -rf src/xxHash
+rm -rf src/spdk
 rm -rf src/erasure-code/jerasure/gf-complete
 rm -rf src/erasure-code/jerasure/jerasure
 rm -rf .git/modules/
