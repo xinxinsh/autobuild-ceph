@@ -684,7 +684,7 @@ def gitbuilder_auto():
 
 @roles('gitbuilder_ceph_rpm')
 def gitbuilder_ceph_rpm():
-    _gitbuilder_ceph_rpm('https://github.com/xinxinsh/ceph.git', 'auto',
+    _gitbuilder_ceph_rpm('https://github.com/xinxinsh/ceph.git', 'ceph',
                          extra_remotes=dict(
                              ci='https://github.com/ceph/ceph-ci.git'
                          ))
