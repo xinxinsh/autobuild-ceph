@@ -792,7 +792,7 @@ def _sync_rsync_keys():
         # for whatever reason, put doesn't seem to honor cd and use_sudo fails
         put("rsync-key")
         put("rsync-key.pub")
-        sudo("mv /home/ubuntu/rsync-key* ./")
+        sudo("mv /home/centos/rsync-key* ./")
         sudo("chmod 600 rsync-key* ; chown autobuild-ceph.autobuild-ceph rsync-key*")
 
 def _sync_to_gitbuilder_from_hostname():
