@@ -19,4 +19,4 @@ git clean -fdx && git reset --hard
 /srv/autobuild-ceph/use-mirror.sh
 /srv/git/bin/git submodule update --init
 git clean -fdx
-rm -fr /tmp/*virtualenv*
+sudo rm -fr /tmp/*virtualenv*
